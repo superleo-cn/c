@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-
+   /* Hello  */
    MYSQL *conn;
    MYSQL_RES *res;
    MYSQL_ROW row;
