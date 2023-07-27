@@ -11,6 +11,7 @@ int main() {
    char *password = ""; /* set me first */
    char *database = "mysql";
    conn = mysql_init(NULL);
+   
    /* Connect to database */
    if (!mysql_real_connect(conn, server,
          user, password, database, 0, NULL, 0)) {
