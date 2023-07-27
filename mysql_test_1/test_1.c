@@ -23,6 +23,7 @@ int main() {
       exit(1);
    }
    res = mysql_use_result(conn);
+
    /* output table name */
    printf("MySQL Tables in mysql database:\n");
    while ((row = mysql_fetch_row(res)) != NULL)
